@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "type": "chrome",
+            "name": "http://localhost:8080/",
+            "request": "launch",
+            "url": "http://localhost:8080/"
+        }
+    ]
+}
